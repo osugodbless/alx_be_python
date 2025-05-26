@@ -1,9 +1,9 @@
 # Prompt user for monthly income and total monthly expenses
 monthly_income = int(input("Enter your monthly income: "))
-monthly_expense = int(input("Enter your total monthly expenses: "))
+monthly_expenses = int(input("Enter your total monthly expenses: "))
 
 # Calculate monthly savings
-monthly_savings = monthly_income - monthly_expense
+monthly_savings = monthly_income - monthly_expenses
 
 # Project annual savings
 interest_rate = 0.05        #Assuming the interest rate is 5%
