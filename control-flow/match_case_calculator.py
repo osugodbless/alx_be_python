@@ -5,20 +5,20 @@ num2 = int(input("Enter the second number: "))
 # Prompt user for operation type
 operation = input("Choose the operation (+, -, *, /): ")
 
-#
-match num1:
-    case number if operation == "+":
-        result  = number + num2
+# Perform calculation based on operation
+match operation:
+    case operator if operation == "+":
+        result  = num1 + num2
 
-    case number if operation == "-":
-        result = number - num2
+    case operator if operation == "-":
+        result = num1 - num2
 
-    case number if operation == "*":
-        result = number * num2
+    case operator if operation == "*":
+        result = num1 * num2
 
-    case number if operation == "/": 
+    case operator if operation == "/": 
         if num2 == 0: result = "Cannot divide by zero"
-        else: result = number / num2
+        else: result = num1 / num2
     case _:
         result = "Please enter a valid operator"
 print(result)
