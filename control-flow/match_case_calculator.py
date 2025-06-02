@@ -19,6 +19,7 @@ match operation:
     case operator if operation == "/": 
         if num2 == 0: result = "Cannot divide by zero"
         else: result = num1 / num2
+    
     case _:
         result = "Please enter a valid operator"
-print(result)
+print("The result is", result)
