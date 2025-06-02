@@ -26,4 +26,3 @@ else:
     variation = "Nonetheless, I enjoyed it"
 print(story)
 print(variation)
-
