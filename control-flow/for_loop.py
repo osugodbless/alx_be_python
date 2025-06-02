@@ -9,4 +9,3 @@ for number in numbers:
 
 # print the result
 print(total)
-
