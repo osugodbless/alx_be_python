@@ -25,5 +25,5 @@ elif unit_of_measurement == "f":
 elif unit_of_measurement != "c" and unit_of_measurement != "f":
     print("Invalid unit of measurement! Please enter C or F.")
 else:
-    print("Invalid temperature")
+    print("Invalid temperature. Please enter a numeric value.")
 
