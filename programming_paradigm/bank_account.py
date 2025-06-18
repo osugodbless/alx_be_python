@@ -11,7 +11,7 @@ class BankAccount:
             print("Withdrawal must be greater than 0")
         elif (self.__account_balance - amount) >= 1:
             self.__account_balance -= amount
-            print("Withdrew: ${amount}")
+            print(f"Withdrew: ${amount}")
         else:
             print("Insufficient funds.")
 
